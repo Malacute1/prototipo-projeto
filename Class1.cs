@@ -1,16 +1,17 @@
 ﻿using System;
-using System.Windows.Forms;
 
 namespace DocumentProcessorApp
 {
-    static class Program
+    public class DocumentProcessor
     {
-        [STAThread]
-        static void Main()
+        public void ProcessPdf(string filePath)
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1()); 
+            // Aqui você pode adicionar a lógica de processamento do PDF
+        }
+
+        public void ProcessImage(string filePath)
+        {
+            // Aqui você pode adicionar a lógica de processamento da imagem
         }
     }
 }
